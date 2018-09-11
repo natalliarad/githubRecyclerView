@@ -57,7 +57,7 @@ public class RepositoryAdapter extends RecyclerView.Adapter<RepositoryAdapter.VH
 
         public VHolder(View itemView) {
             super(itemView);
-            textViewName = itemView.findViewById(R.id.textName);
+            textViewName = itemView.findViewById(R.id.text_view_name);
             textViewDescription = itemView.findViewById(R.id.text_view_description);
             textViewForks = itemView.findViewById(R.id.text_view_forks);
             textViewStars = itemView.findViewById(R.id.text_view_stars);

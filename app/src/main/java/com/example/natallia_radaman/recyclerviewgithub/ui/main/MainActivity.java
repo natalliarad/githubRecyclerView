@@ -14,7 +14,7 @@ import android.widget.ProgressBar;
 import com.example.natallia_radaman.recyclerviewgithub.R;
 import com.example.natallia_radaman.recyclerviewgithub.adapter.RepositoryAdapter;
 import com.example.natallia_radaman.recyclerviewgithub.domain.Repository;
-import com.example.natallia_radaman.recyclerviewgithub.ui.PullActivity;
+import com.example.natallia_radaman.recyclerviewgithub.ui.pull.PullActivity;
 
 import java.util.ArrayList;
 import java.util.List;

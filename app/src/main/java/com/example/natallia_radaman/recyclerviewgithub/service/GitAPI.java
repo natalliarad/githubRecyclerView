@@ -1,6 +1,7 @@
 package com.example.natallia_radaman.recyclerviewgithub.service;
 
 import com.example.natallia_radaman.recyclerviewgithub.domain.GitHub;
+import com.example.natallia_radaman.recyclerviewgithub.domain.Pull;
 
 import java.util.List;
 
@@ -13,5 +14,8 @@ public interface GitAPI {
     public static final String BASE_URL = "https://api.github.com/";
 
     @GET("search/repositories")
-    Call<GitHub> listReposotories(@Query(value = "q", encoded = true) String q, @Query("sort") String sort, @Query("page") int page);
+    Call<GitHub> listRepositories(@Query(value = "q", encoded = true) String q, @Query("sort") String sort, @Query("page") int page);
+
+    @GET("repos/{author}/{repository}/pulls")
+    Call<List<Pull>> listPulls(@Path("author") String author, @Path("repository") String repository);
 }

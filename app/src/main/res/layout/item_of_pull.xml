@@ -13,20 +13,20 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/txtTitulo"
+            android:id="@+id/text_view_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="titulo" />
         <TextView
-            android:id="@+id/txtData"
+            android:id="@+id/text_view_data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="4pt"
             android:text="data" />
 
         <TextView
-            android:id="@+id/txtBody"
+            android:id="@+id/text_view_body"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="4pt"
@@ -43,7 +43,7 @@
                 android:src="@drawable/user"
                 />
             <TextView
-                android:id="@+id/textName"
+                android:id="@+id/text_view_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="nome"

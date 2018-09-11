@@ -18,7 +18,7 @@ public class GitRepositoryService extends GitService{
 
     public void searchRepositories(int page){
         GitAPI gitApi = retrofit.create(GitAPI.class);
-        Call<GitHub> repositories = gitApi.listReposotories("language:Java","stars",page);
+        Call<GitHub> repositories = gitApi.listRepositories("language:Java","stars",page);
 
         repositories.enqueue(new Callback<GitHub>() {
             @Override
