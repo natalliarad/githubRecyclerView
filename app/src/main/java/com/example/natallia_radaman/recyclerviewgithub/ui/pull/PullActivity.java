@@ -18,6 +18,9 @@ import com.example.natallia_radaman.recyclerviewgithub.domain.Pull;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Displays the pull list of the selected author repository.
+ */
 public class PullActivity extends AppCompatActivity implements PullContract.View{
     private PullAdapter pullAdapter;
     private LinearLayoutManager linearLayoutManager;

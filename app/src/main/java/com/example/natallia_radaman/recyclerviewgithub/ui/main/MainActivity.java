@@ -19,6 +19,9 @@ import com.example.natallia_radaman.recyclerviewgithub.ui.pull.PullActivity;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Displays the list of the git repositories.
+ */
 public class MainActivity extends AppCompatActivity implements MainContract.View{
     private LinearLayoutManager linearLayoutManager;
     private RepositoryAdapter repositoryAdapter;

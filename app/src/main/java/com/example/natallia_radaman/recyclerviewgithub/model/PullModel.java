@@ -6,6 +6,9 @@ import com.example.natallia_radaman.recyclerviewgithub.ui.pull.PullContract;
 
 import java.util.List;
 
+/**
+ * Model class for Pull
+ */
 public class PullModel implements PullContract.Model, GitPullService.LoadPullsListener{
     private PullContract.Presenter presenter;
 
